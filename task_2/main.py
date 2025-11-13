@@ -1,6 +1,6 @@
 #1 вариант Andrey Rudz
 import json
-
+print("start code ...")
 found = False
 with open("dump.json","r",encoding='utf-8') as file:
     info_from_file = json.load(file)
@@ -24,3 +24,5 @@ for info in info_from_file:
 
 if not found:
     print('=============== Не найдено ===============')
+
+print("end code")

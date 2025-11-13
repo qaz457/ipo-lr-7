@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "name": "Окунь",
+        "latin_name": "Perca fluviatilis",
+        "is_salt_water_fish": false,
+        "sub_type_count": 3
+    },
+    {
+        "id": 2,
+        "name": "Рыба-черт",
+        "latin_name": "Lophius piscatorius",
+        "is_salt_water_fish": true,
+        "sub_type_count": 5
+    },
+    {
+        "id": 3,
+        "name": "Лещ",
+        "latin_name": "Abramis brama",
+        "is_salt_water_fish": false,
+        "sub_type_count": 2
+    },
+    {
+        "id": 4,
+        "name": "Рыба-капля",
+        "latin_name": "Psychrolutes marcidus",
+        "is_salt_water_fish": true,
+        "sub_type_count": 1
+    },
+    {
+        "id": 5,
+        "name": "Тупорылая акула",
+        "latin_name": "Carcharhinus leucas",
+        "is_salt_water_fish": true,
+        "sub_type_count": 7
+    }
+]

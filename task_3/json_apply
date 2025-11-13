@@ -1,0 +1,42 @@
+#1 вариант Andrey Rudz
+import json
+print("start code ...")
+data = [    {
+                "id": 1,
+                "name": "Окунь",
+                "latin_name": "Perca fluviatilis",
+                "is_salt_water_fish": False,
+                "sub_type_count": 3
+            },
+            {
+                "id": 2,
+                "name": "Рыба-черт",
+                "latin_name": "Lophius piscatorius",
+                "is_salt_water_fish": True,
+                "sub_type_count": 5
+            },
+            {
+                "id": 3,
+                "name": "Лещ",
+                "latin_name": "Abramis brama",
+                "is_salt_water_fish": False,
+                "sub_type_count": 2
+            },
+            {
+                "id": 4,
+                "name": "Рыба-капля",
+                "latin_name": "Psychrolutes marcidus",
+                "is_salt_water_fish": True,
+                "sub_type_count": 1
+            },
+            {
+                "id": 5,
+                "name": "Тупорылая акула",
+                "latin_name": "Carcharhinus leucas",
+                "is_salt_water_fish": True,
+                "sub_type_count": 7
+            }
+        ]
+with open("fish.json",'w', encoding='utf-8') as file:
+    json.dump(data,file,indent=4, ensure_ascii=False)
+print("end code")
