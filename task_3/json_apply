@@ -40,3 +40,19 @@ data = [    {
 with open("fish.json",'w', encoding='utf-8') as file:
     json.dump(data,file,indent=4, ensure_ascii=False)
 print("end code")
+print('Выберите поле значение которого нужно узнать')
+            score = 1
+            numbers_key = []
+            for key in data[i]:
+                numbers_key.append
+                score += 1
+                print(f'{1}){key}')
+            try:
+                choice_key = int(input())
+                if choice_key in numbers_key:
+                    print()
+                else:
+                    print("Ошибка: введите корректный номер")
+            except ValueError:
+                print("Ошибка: введите корректный номер")
+            numbers_key = []
